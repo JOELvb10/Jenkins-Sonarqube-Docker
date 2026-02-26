@@ -1,4 +1,4 @@
-FROM nginx:1.26.4
+FROM nginx:1.25
 
 # Create non-root user and group
 RUN addgroup --system appgroup && adduser --system --ingroup appgroup appuser
